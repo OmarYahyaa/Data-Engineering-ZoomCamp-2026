@@ -57,9 +57,11 @@ Understand the course structure, prerequisites, homework/project workflow, and h
 - [ ] Decide: cloud (GCP) or local-only path (local is allowed, Terraform may be skipped)
 
 ## Q&A takeaways
-- Using AI is OK **if you understand every line** you submit/use.
 - If you lack prerequisites, it’s better to build fundamentals first, then reattempt.
+- Using **Linux** is ideal for this course, but **GitHub Codespaces** is a great alternative since it provides a Linux environment in the cloud.
+- Using AI is OK **if you understand every line** you submit/use.
 - Projects + learning in public can improve visibility; applying early helps understand interview gaps.
+
 > [!IMPORTANT]
 > We cover ~20% of topics that give ~80% of the job impact. What are examples of the remaining 80%? (from previous cohort Q&A)
 > - **Modern lakehouse table formats:** Delta Lake / Apache Iceberg.
@@ -76,6 +78,7 @@ Understand the course structure, prerequisites, homework/project workflow, and h
 - [Course management site](https://courses.datatalks.club/de-zoomcamp-2026/)
 - [NYC Taxi dataset](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
 - [FAQ site](https://datatalks.club/faq/data-engineering-zoomcamp.html)
+
 
 
 
