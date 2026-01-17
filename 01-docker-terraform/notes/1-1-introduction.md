@@ -63,7 +63,7 @@ Understand the course structure, prerequisites, homework/project workflow, and h
 > [!IMPORTANT]
 > Key information users need to know to achieve their goal.
 > Advanced topics (from previous cohort Q&A)
-> Modern lakehouse table formats: **Delta Lake** / **Apache Iceberg**.
+> - Modern lakehouse table formats: **Delta Lake** / **Apache Iceberg**.
 > - **dbt at scale:** prefer **incremental models** over full refresh for large datasets.
 > - **Streaming engines:** Spark is common; **Flink** is often chosen for lower-latency use cases.
 > - **Governance & catalogs:** lineage/metadata/ownership (e.g., DataHub / Unity Catalog).
@@ -77,5 +77,6 @@ Understand the course structure, prerequisites, homework/project workflow, and h
 - [Course management site](https://courses.datatalks.club/de-zoomcamp-2026/)
 - [NYC Taxi dataset](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
 - [FAQ site](https://datatalks.club/faq/data-engineering-zoomcamp.html)
+
 
 
