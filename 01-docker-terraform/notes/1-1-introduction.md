@@ -69,7 +69,7 @@ Understand the course structure, prerequisites, homework/project workflow, and h
 > - **Governance & catalogs:** lineage/metadata/ownership (e.g., DataHub / Unity Catalog).
 > - **Python performance:** alternatives like **Polars** may be used instead of pandas in some teams.
 
-> Source question (timestamp): [Watch the Q&A](https://youtu.be/X8cEEwi8DTM?list=PL3MmuxUbc_hJZdpLpRHp7dg6EOx828q6y&t=4146)
+> Credit: [**Bruno Oliveira**](https://www.linkedin.com/in/iobruno/) answered this question. [Watch the Q&A](https://youtu.be/X8cEEwi8DTM?list=PL3MmuxUbc_hJZdpLpRHp7dg6EOx828q6y&t=4146)
 
 ## References
 - [Course GitHub repo](https://github.com/DataTalksClub/data-engineering-zoomcamp)
@@ -77,6 +77,7 @@ Understand the course structure, prerequisites, homework/project workflow, and h
 - [Course management site](https://courses.datatalks.club/de-zoomcamp-2026/)
 - [NYC Taxi dataset](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
 - [FAQ site](https://datatalks.club/faq/data-engineering-zoomcamp.html)
+
 
 
 
