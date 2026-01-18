@@ -36,18 +36,21 @@ Build an end-to-end local data-engineering workflow using Docker: run Postgres i
 
 ## Commands & Shortcuts
 > [!NOTE]
->Bash is case senstive.
+> - Bash is case senstive.
+> - Put flags/tags right after the command (before the package names), so it’s clear they apply to the command.
 
 | Command | Description |
 | --- | --- |
-| `python -V` & `python --version` | Check Python version |
-| `apt update` | Refreshes your system’s package lists (downloads the latest info about available updates). |
+| `python -V` <br> `python --version` | Check Python version |
+| `apt update` | Refreshes your system’s package lists (downloads the latest info about available updates) |
+| `apt install -y python3` | Installs Python 3 using apt, and -y auto-answers yes to prompts (so it installs without asking) |
 | `echo 'PS1="> "' > ~/.bashrc` | Overwrites your entire bash configuration and simplifies your terminal prompt |
 | `source ~/.bashrc` | Reloads your .bashrc in the current terminal, applying changes immediately |
-| `cp /etc/skel/.bashrc ~/.bashrc` | Copies the system’s default .bashrc from /etc/skel/ into your home directory, making your ~/.bashrc the default one. |
+| `cp /etc/skel/.bashrc ~/.bashrc` | Copies the system’s default .bashrc from /etc/skel/ into your home directory,<br> making your ~/.bashrc the default one. |
 | `docker` | Prints the help/usage text for docker (proves the Docker CLI is installed and runnable) |
 | `dcoker run  hello-world` | Does an end-to-end Docker test |
-| `dcoker run -it ubuntu` | Interact with docker image |
+| `dcoker run -it ubuntu` | Starts a new container from the ubuntu image and gives you an interactive terminal inside it |
+| `docker run -it python:3.9.16` | - Starts an interactive container from the Python 3.9.16 image<br>- Put `-slim` flag to instal light one<br>- Put `--rm` to auto-deletes it when you exit |
 
 | Shortcut | Description |
 | --- | --- |
@@ -78,6 +81,7 @@ Build an end-to-end local data-engineering workflow using Docker: run Postgres i
 ## References
 - [GitHub CodeSpaces Explained](https://docs.github.com/en/codespaces/about-codespaces/what-are-codespaces)
 - [Docker Explained](https://docs.docker.com/get-started/docker-overview/)
+
 
 
 
