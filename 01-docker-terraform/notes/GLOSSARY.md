@@ -40,7 +40,7 @@ Removes the container automatically when it stops (useful for temporary runs).
 ## Environment variables (`-e`)
 Key-value settings passed into a container (commonly used to configure Postgres user/password/db).
 
-## Bind mount (`-v /host/path:/container/path`)
+## Bind mount
 A mount type that maps a **specific folder/file from the host machine** directly into a container.
 
 ## Port mapping (`-p HOST:CONTAINER`)
@@ -66,6 +66,7 @@ A relational database often used in data engineering.
 
 ## Postgres container
 Running PostgreSQL as a Docker container instead of installing it locally.
+
 
 
 
