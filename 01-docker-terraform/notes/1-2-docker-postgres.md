@@ -73,7 +73,7 @@ Build an end-to-end local data-engineering workflow using Docker: run Postgres i
 - [Docker daemon (dockerd)](GLOSSARY.md#docker-daemon-dockerd)
 - [Image](GLOSSARY.md#image)
 - [Container](GLOSSARY.md#container)
-- [Bind mount](GLOSSARY.md#bind-mount--v-hostpathcontainerpath)
+- [Bind mount](GLOSSARY.md#bind-mount)
 - [Port mapping](GLOSSARY.md#port-mapping--p-hostcontainer)
 - [Environment variables](GLOSSARY.md#environment-variables--e)
 - [Volume (persistence)](GLOSSARY.md#volume-persistence)
@@ -85,6 +85,7 @@ Build an end-to-end local data-engineering workflow using Docker: run Postgres i
 ## References
 - [GitHub CodeSpaces Explained](https://docs.github.com/en/codespaces/about-codespaces/what-are-codespaces)
 - [Docker Explained](https://docs.docker.com/get-started/docker-overview/)
+
 
 
 
