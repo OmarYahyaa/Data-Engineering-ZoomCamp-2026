@@ -36,7 +36,7 @@ Build an end-to-end local data-engineering workflow using Docker: run Postgres i
 
 ## Commands & Shortcuts
 > [!NOTE]
-> - Bash is case senstive.
+> - Bash is case sensitive.
 > - Put flags/tags right after the command (before the package names), so it’s clear they apply to the command.
 
 | Command | Description |
@@ -61,7 +61,7 @@ Build an end-to-end local data-engineering workflow using Docker: run Postgres i
 
 ## Gotchas / Warnings
 > [!CAUTION]
-> Dont use `rm -rf /` on your computer as it attempts to delete everything on the machine, including critical system files, and can render the OS unbootable (data loss), But you can use it inside docker container as it isolated from your system.
+> Don't use `rm -rf /` on your computer as it attempts to delete everything on the machine, including critical system files, and can render the OS unbootable (data loss), But you can use it inside docker container as it is isolated from your system.
 
 > [!CAUTION]
 > `>` overwrites `.bashrc`. Use `>>` to append safely. ( `echo 'PS1="> "' >> ~/.bashrc` )
@@ -80,6 +80,7 @@ Build an end-to-end local data-engineering workflow using Docker: run Postgres i
 ## References
 - [GitHub CodeSpaces Explained](https://docs.github.com/en/codespaces/about-codespaces/what-are-codespaces)
 - [Docker Explained](https://docs.docker.com/get-started/docker-overview/)
+
 
 
 
