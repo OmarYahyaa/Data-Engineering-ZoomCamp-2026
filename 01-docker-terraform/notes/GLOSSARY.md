@@ -13,7 +13,7 @@ A platform for building, shipping, and running applications in containers.
 ## Docker daemon
 The background service that builds, runs, and manages containers, images, networks, and volumes.
 
-## Docker CLI
+## Docker CLI (Client)
 The `docker` command-line tool you use to communicate with the Docker daemon.
 
 ## Image
@@ -30,6 +30,7 @@ A mount type that maps a **specific folder/file from the host machine** directly
 
 ## Volume
 Storage that keeps data even if the container is removed/recreated (critical for databases).
+
 
 
 
