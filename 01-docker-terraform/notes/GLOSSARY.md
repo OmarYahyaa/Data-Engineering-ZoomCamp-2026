@@ -10,7 +10,7 @@ A file that tells Git which files/folders to exclude from tracking and commits, 
 ## Docker
 A platform for building, shipping, and running applications in containers.
 
-## Docker daemon (dockerd)
+## Docker daemon
 The background service that builds, runs, and manages containers, images, networks, and volumes.
 
 ## Docker CLI
@@ -30,6 +30,7 @@ A mount type that maps a **specific folder/file from the host machine** directly
 
 ## Volume
 Storage that keeps data even if the container is removed/recreated (critical for databases).
+
 
 
 
