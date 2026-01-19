@@ -73,7 +73,7 @@ Build an end-to-end local data-engineering workflow using Docker: run Postgres i
 - [.gitignore](GLOSSARY.md#gitignore)
 - [Docker](GLOSSARY.md#docker)
 - [Docker daemon](GLOSSARY.md#docker-daemon)
-- [Docker CLI](GLOSSARY.md#docker-cli)
+- [Docker CLI (Client)](GLOSSARY.md#docker-cli-client)
 - [Image](GLOSSARY.md#image)
 - [Container](GLOSSARY.md#container)
 - [Bind mount](GLOSSARY.md#bind-mount)
@@ -82,6 +82,7 @@ Build an end-to-end local data-engineering workflow using Docker: run Postgres i
 ## References
 - [GitHub CodeSpaces Explained](https://docs.github.com/en/codespaces/about-codespaces/what-are-codespaces)
 - [Docker Explained](https://docs.docker.com/get-started/docker-overview/)
+
 
 
 
