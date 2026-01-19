@@ -33,6 +33,9 @@ Build an end-to-end local data-engineering workflow using Docker: run Postgres i
 - **Codespaces:** Cloud VM (hidden) + containerized dev env → consistent Linux setup.
 
 ## Practice with instructor
+- Practiced **bind mounts** by running a host folder inside a Python container and reading files from the mounted directory.
+- Implementation: [../src/bind-mount-python-test/](../src/bind-mount-python-test/)
+
 
 ## Commands & Shortcuts
 > [!NOTE]
@@ -80,6 +83,7 @@ Build an end-to-end local data-engineering workflow using Docker: run Postgres i
 ## References
 - [GitHub CodeSpaces Explained](https://docs.github.com/en/codespaces/about-codespaces/what-are-codespaces)
 - [Docker Explained](https://docs.docker.com/get-started/docker-overview/)
+
 
 
 
