@@ -3,6 +3,8 @@ from pathlib import Path
 current_dir = Path.cwd()
 current_file = Path(__file__).name
 
+ignore = {current_file, "README.md"}
+
 print(f"Files in {current_dir}:")
 
 for filepath in current_dir.iterdir():
