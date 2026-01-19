@@ -29,11 +29,4 @@ Inside the container:
 cd /app/test
 python script.py
 ```
-Expected output:
-
-- Prints the current working directory
-
-- Lists the files in test/
-
-- Prints the content of each .txt file
 
